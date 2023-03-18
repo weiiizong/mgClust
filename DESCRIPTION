@@ -1,0 +1,20 @@
+Package: mgClust
+Type: Package
+Title: Multivariate Outcome-guided Clustering
+Version: 0.1.0
+Author: Wei Zong
+Maintainer: Wei Zong <wez97@pitt.edu>
+Description: This package is developed to fit a unified multivariate outcome-guided clustering 
+   model (mogClust) for identifing molecular subtypes that are relevant to multiple model-selected 
+   outcomes collectively.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    glmnet,
+    Matrix,
+    Rfast,
+    SGL
+RoxygenNote: 7.2.0
+Depends: 
+    R (>= 3.6)
